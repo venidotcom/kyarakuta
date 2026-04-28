@@ -17,65 +17,169 @@
   "saintsstreet": [
     {
       "cover": "../assets/images/Kyarakutā-014.png",
-      "tags": ["saint's street", "neil bowman"]
+      "tags": ["all saints street", "neil bowman"]
     },
     {
       "cover": "../assets/images/Kyarakutā-015.png",
-      "tags": ["saint's street", "lily angel"]
+      "tags": ["all saints street", "lily angel"]
     },
     {
       "cover": "../assets/images/Kyarakutā-016.png",
-      "tags": ["saint's street", "lynn angel"]
+      "tags": ["all saints street", "lynn angel"]
     },
     {
       "cover": "../assets/images/Kyarakutā-017.png",
-      "tags": ["saint's street", "ira blood"]
+      "tags": ["all saints street", "ira blood"]
     },
     {
       "cover": "../assets/images/Kyarakutā-018.png",
-      "tags": ["saint's street", "nick hoult"]
+      "tags": ["all saints street", "nick hoult"]
     }
   ],
   
   "anohana": [
     {
-      "cover": "../assets/images/Kyarakutā-001.png",
-      "tags": ["anohana", "charactername"]
+      "cover": "../assets/images/Kyarakutā-013.png",
+      "tags": ["anohana", "jinta yadomi"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-014.png",
+      "tags": ["anohana", "atsumu matsuyuki"]
     }
   ],
 
   "assclass": [
     {
-      "cover": "../assets/images/Kyarakutā-001.png",
-      "tags": ["seriesname", "charactername"]
+      "cover": "../assets/images/Kyarakutā-016.png",
+      "tags": ["assassination classroom", "nagisa shiota"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-017.png",
+      "tags": ["assassination classroom", "karma akabane"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-018.png",
+      "tags": ["assassination classroom", "rio nakamura"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-019.png",
+      "tags": ["assassination classroom", "itona horibe"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-020.png",
+      "tags": ["assassination classroom", "tadaomi karasuma"]
     }
   ],
 
   "attackontitan": [
     {
-      "cover": "../assets/images/Kyarakutā-001.png",
-      "tags": ["seriesname", "charactername"]
+      "cover": "../assets/images/Kyarakutā-021.png",
+      "tags": ["attack on titan", "shingeki no kyojin", "charactername"]
     }
   ],
 
   "avatar": [
     {
-      "cover": "../assets/images/Kyarakutā-001.png",
-      "tags": ["seriesname", "charactername"]
+      "cover": "../assets/images/Kyarakutā-029.png",
+      "tags": ["avatar the last airbender", "aang"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-030.png",
+      "tags": ["avatar the last airbender", "sokka"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-031.png",
+      "tags": ["avatar the last airbender", "toph beifong"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-032.png",
+      "tags": ["avatar the last airbender", "zuko"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-033.png",
+      "tags": ["avatar the last airbender", "suki"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-034.png",
+      "tags": ["avatar the last airbender", "jet"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-035.png",
+      "tags": ["avatar the last airbender", "iroh"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-036.png",
+      "tags": ["avatar the last airbender", "yue"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-037.png",
+      "tags": ["avatar the last airbender", "jin"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-038.png",
+      "tags": ["avatar the last airbender", "azula"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-039.png",
+      "tags": ["avatar the last airbender", "mai"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-040.png",
+      "tags": ["avatar the last airbender", "ty lee"]
     }
   ],
 
   "bedandbreakfast": [
     {
-      "cover": "../assets/images/Kyarakutā-001.png",
-      "tags": ["seriesname", "charactername"]
+      "cover": "../assets/images/Kyarakutā-042.png",
+      "tags": ["bed and breakfast for spirits", "odanna"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-043.png",
+      "tags": ["bed and breakfast for spirits", "akatsuki"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-044.png",
+      "tags": ["bed and breakfast for spirits", "ginji"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-045.png",
+      "tags": ["bed and breakfast for spirits", "ranmaru"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-046.png",
+      "tags": ["bed and breakfast for spirits", "raiju"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-047.png",
+      "tags": ["bed and breakfast for spirits", "sasuke"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-048.png",
+      "tags": ["bed and breakfast for spirits", "tokihiko"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-049.png",
+      "tags": ["bed and breakfast for spirits", "kai", "mei"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-050.png",
+      "tags": ["bed and breakfast for spirits", "byakuya"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-051.png",
+      "tags": ["bed and breakfast for spirits", "hatori"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-052.png",
+      "tags": ["bed and breakfast for spirits", "hideyoshi"]
     }
   ],
 
   "bighero": [
     {
       "cover": "../assets/images/Kyarakutā-001.png",
-      "tags": ["seriesname", "charactername"]
+      "tags": ["big hero 6", "charactername"]
     }
   ],
 
