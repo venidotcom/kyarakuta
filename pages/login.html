@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Log In</title>
+  <link href="../styles/style.css" rel="stylesheet">
+
+</head>
+
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top p-0">
+    <div class="container-fluid flex-column align-items-stretch px-0">
+
+      <!-- Kyarakutā title & nav titles -->
+      <div class="w-100 px-3 py-2 d-flex align-items-center">
+        <a class="navbar-brand fw-bold mb-0" href="../index.html">Kyarakutā</a>
+
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <br><br><br>
+
+
+  <!-- login "form" -->
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+
+      <input id="username" type="text" class="form-control p-2 fs-4 mb-2" placeholder="user name">
+
+
+
+      <div class="input-group">
+        <input type="password" id="password" class="form-control p-2 fs-4 border-end-0" placeholder="password">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-4 justify-content-center">
+    <div class="col-md-8">
+      <button id="login-button" class="btn btn-lg w-100 fs-5 p-3 border border-rounded-pill" type="button"
+        aria-label="Sign In" style="background-color: #56514D; color: white;">Sign In to Kyarakutā
+      </button>
+    </div>
+  </div>
+
+  <footer class="mt-auto py-3 bg-light" style="border-top: 1px solid #56514D;">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center gap-4 small text-muted flex-wrap">
+        <span>
+          &copy; 2026 Kyarakutā
+        </span>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../scripts/login-script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,508 @@
+{
+  "silentvoice": [
+    {
+      "cover": "../assets/images/Kyarakutā-003.png",
+      "tags": ["a silent voice", "shoya ishida"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-004.png",
+      "tags": ["a silent voice", "shouko nishimiya"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-005.png",
+      "tags": ["a silent voice", "yuzuru nishimiya"]
+    }
+  ],
+
+  "saintsstreet": [
+    {
+      "cover": "../assets/images/Kyarakutā-014.png",
+      "tags": ["saint's street", "neil bowman"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-015.png",
+      "tags": ["saint's street", "lily angel"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-016.png",
+      "tags": ["saint's street", "lynn angel"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-017.png",
+      "tags": ["saint's street", "ira blood"]
+    },
+    {
+      "cover": "../assets/images/Kyarakutā-018.png",
+      "tags": ["saint's street", "nick hoult"]
+    }
+  ],
+  
+  "anohana": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["anohana", "charactername"]
+    }
+  ],
+
+  "assclass": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "attackontitan": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "avatar": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "bedandbreakfast": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "bighero": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "blueexorcist": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "buddydaddies": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "bungostraydogs": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "cagaster": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "classroomelite": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "dannyphantom": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "darwinsgame": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "deathnote": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "demonslayer": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "detroitbecomehuman": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "edenszero": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "fireforce": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "genshinimpact": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "haikyuu": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "hamatora": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "starrail": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "horimiya": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "howlsmovingcastle": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "hunterxhunter": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "hyouka": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "jujutsukaisen": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "kamisamakiss": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "linkclick": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "miraculous": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "mobpsycho": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "myhappymarriage": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "myheroacademia": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "littlemonster": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "riseguardians": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "romkiller": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "sallyface": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "seraph": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "servamp": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "siriusjaeger": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "snowwhite": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "spyxfam": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "stardew": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "sugarapple": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "supercrooks": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "swordart": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "tangled": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "tangledseries": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "teentitans": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "slime": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "immortalking": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "saikik": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "iceguy": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "korra": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "balanceunlimited": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "orbitalchildren": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "strongestexorcist": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "sevensins": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "toiletbound": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "tokyoghoul": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "magmell": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "voltron": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "whisperheart": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "wisemans": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "worldtrigger": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "yonaofthedawn": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ],
+
+  "yourname": [
+    {
+      "cover": "../assets/images/Kyarakutā-001.png",
+      "tags": ["seriesname", "charactername"]
+    }
+  ]
+}
