@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-  console.log("password is: lasagna");
+  console.log("this is not a public site");
 });
 
 const login = document.getElementById('login-button');
