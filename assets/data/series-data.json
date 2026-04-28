@@ -3,7 +3,7 @@
     {
       "cover": "./assets/images/Kyarakutā-001.png",
       "tags": ["all series"],
-      "page": "../pages/all.html"
+      "page": "./pages/all.html"
     },
     {
       "cover": "./assets/images/Kyarakutā-002.png",
