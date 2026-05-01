@@ -118,3 +118,9 @@ h1 {
 .video-thumb:hover {
   border-color: white;
 }
+
+.load-more-btn {
+  background-color: #56514D;
+  color: white;
+  border: none;
+}

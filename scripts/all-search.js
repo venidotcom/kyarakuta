@@ -7,7 +7,12 @@ const imageModal = new bootstrap.Modal(modalEl);
 
 let videoData = null;
 
-// FIX: ensure pageType always exists
+// Pagination state
+let visibleCount = 50;
+const LOAD_STEP = 50;
+let currentItems = [];
+
+// Ensure pageType always exists
 const pageType = document.body.dataset.page || "default";
 
 // Fetch data
@@ -33,7 +38,6 @@ function getCurrentData() {
 
   const data = videoData[pageType];
 
-  // FIX: prevent undefined crash
   if (!Array.isArray(data)) {
     console.warn("Invalid pageType or missing data:", pageType);
     return [];
@@ -42,17 +46,18 @@ function getCurrentData() {
   return data;
 }
 
-// Render page
+// Initialize page
 function renderPageData() {
-  const data = getCurrentData();
-  renderObjectResults(data);
+  currentItems = getCurrentData();
+  visibleCount = LOAD_STEP;
+  renderObjectResults();
 }
 
-// Render cards
-function renderObjectResults(items) {
+// Render cards (paginated)
+function renderObjectResults() {
   videoGrid.innerHTML = "";
 
-  if (!items.length) {
+  if (!currentItems.length) {
     videoGrid.innerHTML = `
       <div class="text-center text-muted py-5 w-100">
         No content available
@@ -61,7 +66,9 @@ function renderObjectResults(items) {
     return;
   }
 
-  items.forEach(video => {
+  const itemsToShow = currentItems.slice(0, visibleCount);
+
+  itemsToShow.forEach(video => {
     const col = document.createElement("div");
     col.className = "col-lg-3 col-md-4 col-sm-12";
 
@@ -69,6 +76,7 @@ function renderObjectResults(items) {
       <div class="card h-100 shadow-sm">
         <img 
           src="${video.cover}" 
+          loading="lazy"
           class="card-img-top img-fluid video-thumb"
           data-src="${video.cover}"
           data-page="${video.page || ""}"
@@ -78,6 +86,28 @@ function renderObjectResults(items) {
 
     videoGrid.appendChild(col);
   });
+
+  renderLoadMoreButton();
+}
+
+// Load More button
+function renderLoadMoreButton() {
+  const existingBtn = document.getElementById("loadMoreBtn");
+  if (existingBtn) existingBtn.remove();
+
+  if (visibleCount >= currentItems.length) return;
+
+  const btn = document.createElement("button");
+  btn.id = "loadMoreBtn";
+  btn.className = "btn load-more-btn d-block mx-auto mt-4";
+  btn.textContent = "Click to See More";
+
+  btn.addEventListener("click", () => {
+    visibleCount += LOAD_STEP;
+    renderObjectResults();
+  });
+
+  videoGrid.after(btn);
 }
 
 // Click handler
@@ -100,28 +130,28 @@ modalEl.addEventListener("hidden.bs.modal", () => {
   modalImage.src = "";
 });
 
-// Search
+// Search with pagination
 function handleGlobalObjectSearch() {
   if (!videoData) return;
 
   const query = searchBox.value.trim().toLowerCase();
-  const currentData = getCurrentData();
+  const baseData = getCurrentData();
 
   if (!query) {
-    renderObjectResults(currentData);
-    return;
+    currentItems = baseData;
+  } else {
+    currentItems = baseData.filter(item =>
+      Object.values(item).some(value => {
+        if (Array.isArray(value)) {
+          return value.some(v => String(v).toLowerCase().includes(query));
+        }
+        return String(value).toLowerCase().includes(query);
+      })
+    );
   }
 
-  const results = currentData.filter(item =>
-    Object.values(item).some(value => {
-      if (Array.isArray(value)) {
-        return value.some(v => String(v).toLowerCase().includes(query));
-      }
-      return String(value).toLowerCase().includes(query);
-    })
-  );
-
-  renderObjectResults(results);
+  visibleCount = LOAD_STEP;
+  renderObjectResults();
 }
 
 searchBox.addEventListener("input", handleGlobalObjectSearch);
